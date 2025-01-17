@@ -1,6 +1,6 @@
 # Parallax-Js
 
-![Alt text](https://github.com/user-attachments/assets/ec5af743-c55d-4868-8073-0c4ba412e36a)
+![Alt text](https://github.com/user-attachments/assets/58dd72e8-a0f1-4cca-b730-20d4bb19a9a3)
 
 
 ![Alt text](https://github.com/user-attachments/assets/6cc694d8-978c-467e-927e-cd6e6d38ce04)
