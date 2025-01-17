@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Js</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body>
+    <main class="w-full h-[15000px]">
+        <nav class="fixed top-8 right-16 z-[100]">
+            <ul class="hidden lg:flex flex-col">
+                <li class="mb-3"><a
+                        class="text-white hover:italic transition-all duration-200 text-lg tracking-widest font-semibold no-underline"
+                        href="#">HOME</a></li>
+                <li class="mb-3 relative">
+                    <i class="bi bi-plus text-white text-2xl absolute top-[-3px] left-[-30px]"></i>
+                    <a class="text-white text-lg hover:italic transition-all duration-200 tracking-widest font-semibold no-underline"
+                        href="#">BUSINESS</a>
+                </li>
+                <li class="mb-3"><a
+                        class="text-white hover:italic transition-all duration-200 text-lg tracking-widest font-semibold no-underline"
+                        href="#">FEATURE</a></li>
+                <li class="mb-3"><a
+                        class="text-white hover:italic transition-all duration-200 text-lg tracking-widest font-semibold no-underline"
+                        href="#">COMPANY</a></li>
+                <li class="mb-3"><a
+                        class="text-white hover:italic transition-all duration-200 text-lg tracking-widest font-semibold no-underline"
+                        href="#">OFFICE</a></li>
+            </ul>
+        </nav>
+        <header class="w-full p-5 flex justify-end z-[100] fixed">
+            <i class="bi bi-list text-white text-3xl lg:hidden"></i>
+        </header>
+        <section class="w-full h-screen bg-black fixed top-0 left-0 select-none" id="particles-js">
+            <div
+                class="video-container absolute top-[20%] left-20 lg:top-0 lg:left-52 h-screen w-[550px] md:w-[750px] overflow-hidden">
+                <video src="img/fv.mp4" autoplay muted loop
+                    class="w-1/2 sm:w-[60%] md:w-[70%] h-1/2 sm:h-[60%] md:h-[70%] lg:w-full lg:h-full object-cover"></video>
+            </div>
+            <h1
+                class="text-header text-7xl sm:text-8xl md:text-9xl tracking-widest lg:text-[180px] text-white absolute top-1/4 lg:top-[10%] left-1/3 lg:left-[36%] font-serif">
+                LOGI <br> CARE</h1>
+            <p
+                class="text-header text-lg lg:text-2xl absolute top-1/2 sm:top-[60%] md:top-[70%] w-1/2 left-[37%] text-white tracking-widest">
+                複数拠点で 総面積1万坪以上の 倉庫を保有</p>
+            <p class="text-header text-sm lg:text-base absolute bottom-14 left-24 text-white tracking-widest">LOGICORE
+                CREATES <br> A NEW FORM OF LOGISTICS</p>
+            <img src="img/fv-scroll.svg" class="text-header bottom-0 left-8 absolute" alt="">
+        </section>
+        <section id="second"
+            class="w-full h-[140vh] bg-black fixed top-[140vh] left-0 select-none transition-all duration-300">
+            <div
+                class="w-[85%] h-full border border-slate-400 border-opacity-40 relative z-50 bg-black bg-opacity-50 backdrop-blur flex flex-col px-4 py-32 lg:p-20">
+                <h2 class="text-white text-xl lg:text-6xl leading-7 lg:leading-[90px] mb-12">物流課題の核心に迫り <br> どんな課題も <br>
+                    超えていく</h2>
+                <p class="text-white text-xl leading-7 lg:leading-[40px] mb-12">多様化する物流課題。その解決策は一つではありません。
+                    <br>だからこそ、ロジコアは従来の凝り固まった手段にはとらわれず、<br>物流課題の深部（コア）に迫り、つねにお客様目線に立って考えます。
+                </p>
+                <p class="text-white text-xl lg:text-xl leading-7 lg:leading-[40px] mb-12">どんな困難な課題も乗り越えていける。</p>
+            </div>
+        </section>
+        <section id="third" class="w-full fixed top-[240vh] left-0 select-none transition-all duration-300">
+            <div class="w-full h-[90vh] lg:h-screen bg-third bg-cover bg-bottom">
+                <img src="img/logo_wh-1.svg" alt="" class="fixed top-6 left-10 z-[100] opacity-0 drop-shadow-2xl">
+                <marquee class="text-9xl mt-28 text-slate-200 italic font-serif">Who We Are To The Core Who We Are To
+                    The Core</marquee>
+            </div>
+            <div class="w-full h-screen lg:h-[200vh] bg-black relative">
+                <h2 class="text-8xl px-6 lg:px-36 pt-16 lg:pt-24 lg:text-[200px] font-serif text-white relative z-50">
+                    Business</h2>
+                <h2
+                    class="text-[130px] w-full lg:text-[250px] xl:text-[350px] font-serif text-gray-600 text-opacity-30 absolute top-20 left-0">
+                    Business</h2>
+                <img src="img/feature-img01.png" alt="" class="mt-14 flex">
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between md:mt-5 md:px-8 py-4">
+                    <h4 class="text-white text-5xl lg:text-8xl xl:text-9xl font-serif p-4 md:w-[70%]">Our Feature</h4>
+                    <button
+                        class="text-white text-xl border border-white rounded-full py-3 flex w-[90%] mx-auto justify-between items-center px-6 hover:text-black hover:bg-white transition-all duration-200 font-bold md:w-[30%]">
+                        だからこそ
+                        <i class="bi bi-chevron-double-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="fourth"
+            class="w-full h-[110vh] fixed z-50 left-0 top-[360vh] select-none transition-all duration-300">
+            <video src="img/for_the_future.mp4" autoplay loop muted class="w-full h-full block object-cover"></video>
+        </section>
+        <section id="fifth"
+            class="w-full h-[140vh] fixed top-[200vh] left-0 select-none transition-all duration-300 z-50">
+            <div
+                class="w-[85%] h-full border border-slate-400 border-opacity-40 relative z-50 bg-black bg-opacity-50 backdrop-blur flex flex-col px-4 py-32 lg:p-20">
+                <p class="text-white text-xl leading-7 lg:leading-[40px] mb-12">多様化する物流課題。その解決策は一つではありません。
+                    <br>だからこそ、ロジコアは従来の凝り固まった手段にはとらわれず、<br>物流課題の深部（コア）に迫り、つねにお客様目線に立って考えます。
+                </p>
+                <p class="text-white text-xl lg:text-xl leading-7 lg:leading-[40px] mb-12">どんな困難な課題も乗り越えていける。</p>
+                <h2 class="text-white text-xl lg:text-8xl italic mb-12">For The Future</h2>
+            </div>
+        </section>
+        <section id="sixth"
+            class="w-full h-[110vh] bg-[#222222] fixed z-50 left-0 top-[450vh] flex flex-col justify-center lg:flex-row lg:items-center p-8">
+            <div class="text-white lg:w-1/2">
+                <h2 class="text-2xl lg:text-9xl italic font-serif lg:text-center mb-6">Contact</h2>
+            </div>
+            <div class="text-white lg:w-1/2 lg:flex lg:flex-col lg:justify-center lg:items-center">
+                <p class="text-lg mb-10 lg:text-center">当社へのご相談・ご依頼は、フォームまたはお電話からご連絡ください。
+                </p>
+                <p class="text-5xl mb-10">072-648-5588</p>
+                <button
+                    class="text-white text-xl border border-white rounded-full py-3 flex w-full mx-auto justify-between items-center px-6 hover:text-black hover:bg-white transition-all duration-200 font-bold lg:w-1/2">
+                    だからこそ
+                    <i class="bi bi-chevron-double-right"></i>
+                </button>
+            </div>
+        </section>
+        <footer class="w-full h-[110vh] text-center fixed z-50 left-0 top-[550vh]">
+            <p class="text-white text-2xl lg:text-5xl absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
+                物流の常識を、アイデアで超える。<br>
+                ロジコアならできることが、まだまだある。</p>
+            <video src="img/fv.mp4" autoplay muted loop class="w-full h-full object-cover bg-cover"></video>
+        </footer>
+        <!-- info -->
+        <div
+            class="hidden w-[170px] h-[170px] rounded-full border-[1px] border-infoColor outline-[1px] outline-infoColor 
+            outline-offset-8 fixed bottom-[50px] right-[40px] md:flex items-center justify-center select-none z-[999] group">
+            <div class="circle w-[165px] h-[165px] rounded-full">
+                <img src="img/me5.webp" alt="" class="w-full h-full rounded-full object-cover">
+            </div>
+            <strong class="absolute top-[45%] right-[-88px] rotate-[90deg] text-[15px] italic text-infoColor">Frontend
+                Developer</strong>
+            <a href="https://www.linkedin.com/in/reza-geshani-web"><i
+                    class="bi bi-linkedin group-hover:visible text-[26px] text-white absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 hover:text-[#1f9caa] top-[-10px] left-[-58px]"></i></a>
+            <a href="https://www.instagram.com/rezageshani_web"><i
+                    class="bi bi-instagram group-hover:visible text-[26px] absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 hover:text-[#1f9caa] text-white top-[40px] left-[-80px]"></i></a>
+            <a href="https://github.com/RezaGeshaniWeb/"><i
+                    class="bi bi-github group-hover:visible text-[26px] absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 hover:text-[#1f9caa] text-white top-[90px] left-[-80px]"></i></a>
+            <a href="mailto:rezageshaniweb@gmail.com"><i
+                    class="bi bi-envelope-at group-hover:visible text-[26px] absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 hover:text-[#1f9caa] text-white top-[130px] left-[-58px]"></i></a>
+        </div>
+    </main>
+
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
